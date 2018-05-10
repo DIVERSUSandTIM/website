@@ -14,6 +14,6 @@ function init() {
   scroll();
   navOnMobile();
   // initThree();
-  animate();
+  // animate();
 }
 
