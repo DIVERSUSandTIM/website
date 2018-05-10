@@ -77,7 +77,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new ExtractTextPlugin('[name]_styles.css'),
+    new ExtractTextPlugin('[name]_[hash]_styles.css'),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV':
         JSON.stringify(process.env.NODE_ENV) || 'development',
